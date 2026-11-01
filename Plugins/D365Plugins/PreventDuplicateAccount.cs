@@ -94,6 +94,11 @@ namespace D365Plugins
                     throw new InvalidPluginExecutionException(
                         "An error occurred while validating the GSTIN.", ex);
                 }
+                catch (InvalidPluginExecutionException)
+                {
+                    throw;
+                }
+
                 catch (Exception ex)
                 {
                     tracingService.Trace(
