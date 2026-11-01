@@ -1,0 +1,31 @@
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+## Visual Studio generated files
+*.cache
+*.pdb
+*.dll
+*.exe
+
+## Strong name signing keys
+*.snk
+
+## NuGet
+packages/
+*.nupkg
+
+## User-specific files
+*.rsuser
+*.sln.ide
